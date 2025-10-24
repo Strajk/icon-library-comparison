@@ -1,14 +1,17 @@
 # Icon Library Comparison
 
-A comprehensive comparison tool for popular icon libraries including Lucide, Tabler, Heroicons, Phosphor, and Feather.
+**🚀 Live Demo: https://strajk.github.io/icon-library-comparison/**
+
+A comprehensive comparison tool for popular icon libraries including Lucide, Tabler, Heroicons, Phosphor, Feather, and HugeIcons.
 
 ## Libraries Compared
 
-- **Lucide** (~1,000+ icons) - Modern, clean line icons (Feather successor)
-- **Tabler** (~2,400+ icons) - Crisp line icons with some fills  
-- **Heroicons** (~316 icons) - Multiple sizes (mini, micro, outline, solid)
-- **Phosphor** (~7,000+ icons) - Multiple weights (thin to bold)
-- **Feather** (~300+ icons) - Minimalist line icons (no longer maintained)
+- **Lucide** (~1,639 icons) - Modern, clean line icons (Feather successor)
+- **Tabler** (~4,964 icons) - Crisp line icons with comprehensive coverage  
+- **Heroicons** (~100 icons) - Clean outline and filled icons by Tailwind CSS team
+- **Phosphor** (~200 icons) - Multiple weights available (thin to bold)
+- **Feather** (~287 icons) - Minimalist line icons (no longer maintained)
+- **HugeIcons** (~102 icons) - AI-themed and modern business icons
 
 ## Features
 
