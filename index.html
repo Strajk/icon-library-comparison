@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Library Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Icon library CDNs -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Tabler Icons - now using manual SVG implementation -->
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <!-- HugeIcons -->
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Icon Library Comparison</h1>
+        <p class="description">
+            Comparing popular icon libraries: Lucide, Tabler, Heroicons, Phosphor, Feather, and HugeIcons.
+            Each row represents a common icon concept, with multiple columns showing equivalent icons from different libraries.
+        </p>
+        
+        <div class="table-wrapper">
+            <table id="icon-comparison-table">
+                <thead>
+                    <tr>
+                        <th class="icon-type">Icon Type</th>
+                        <th class="library-col">Lucide</th>
+                        <th class="library-col">Tabler</th>
+                        <th class="library-col">Heroicons</th>
+                        <th class="library-col">Phosphor</th>
+                        <th class="library-col">Feather</th>
+                        <th class="library-col">HugeIcons</th>
+                    </tr>
+                </thead>
+                <tbody id="comparison-tbody">
+                    <!-- Dynamic content will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="legend">
+            <h3>Legend</h3>
+            <ul>
+                <li><span class="icon-name">Icon Name</span> - The actual icon identifier in the library</li>
+                <li>Multiple icons in a cell indicate variations or similar concepts</li>
+                <li>Empty cells mean no equivalent icon found in that library</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
