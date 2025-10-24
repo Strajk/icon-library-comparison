@@ -633,14 +633,4 @@ function populateTable() {
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
     populateTable();
-    
-    // Initialize Lucide icons AFTER table is populated
-    if (typeof lucide !== 'undefined') {
-        lucide.createIcons();
-    }
-    
-    // Initialize Feather icons AFTER table is populated
-    if (typeof feather !== 'undefined') {
-        feather.replace();
-    }
 });
